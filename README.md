@@ -1,1 +1,1 @@
-# patterns-off-application-design
+# patterns-of-application-design
