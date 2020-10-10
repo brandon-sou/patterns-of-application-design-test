@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA005D71252FFFC300CC619D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA005D70252FFFC300CC619D /* SettingsViewController.swift */; };
+		CA005D7525301F0900CC619D /* RelaxingTipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA005D7425301F0900CC619D /* RelaxingTipsViewController.swift */; };
 		CA91F773252D7085002DBB38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA91F772252D7085002DBB38 /* AppDelegate.swift */; };
 		CA91F775252D7085002DBB38 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA91F774252D7085002DBB38 /* SceneDelegate.swift */; };
 		CA91F777252D7085002DBB38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA91F776252D7085002DBB38 /* ViewController.swift */; };
 		CA91F77A252D7085002DBB38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA91F778252D7085002DBB38 /* Main.storyboard */; };
 		CA91F77C252D7086002DBB38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA91F77B252D7086002DBB38 /* Assets.xcassets */; };
 		CA91F77F252D7086002DBB38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA91F77D252D7086002DBB38 /* LaunchScreen.storyboard */; };
+		CA91F787252FD0D6002DBB38 /* signUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA91F786252FD0D6002DBB38 /* signUp.swift */; };
+		CA91F78B252FF24B002DBB38 /* NightModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA91F78A252FF24B002DBB38 /* NightModeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CA005D70252FFFC300CC619D /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		CA005D7425301F0900CC619D /* RelaxingTipsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelaxingTipsViewController.swift; sourceTree = "<group>"; };
 		CA91F76F252D7085002DBB38 /* Restful App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Restful App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA91F772252D7085002DBB38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CA91F774252D7085002DBB38 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +30,8 @@
 		CA91F77B252D7086002DBB38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA91F77E252D7086002DBB38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA91F780252D7086002DBB38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA91F786252FD0D6002DBB38 /* signUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signUp.swift; sourceTree = "<group>"; };
+		CA91F78A252FF24B002DBB38 /* NightModeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightModeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,10 @@
 				CA91F772252D7085002DBB38 /* AppDelegate.swift */,
 				CA91F774252D7085002DBB38 /* SceneDelegate.swift */,
 				CA91F776252D7085002DBB38 /* ViewController.swift */,
+				CA005D7425301F0900CC619D /* RelaxingTipsViewController.swift */,
+				CA91F786252FD0D6002DBB38 /* signUp.swift */,
+				CA91F78A252FF24B002DBB38 /* NightModeViewController.swift */,
+				CA005D70252FFFC300CC619D /* SettingsViewController.swift */,
 				CA91F778252D7085002DBB38 /* Main.storyboard */,
 				CA91F77B252D7086002DBB38 /* Assets.xcassets */,
 				CA91F77D252D7086002DBB38 /* LaunchScreen.storyboard */,
@@ -139,8 +151,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA91F777252D7085002DBB38 /* ViewController.swift in Sources */,
+				CA91F78B252FF24B002DBB38 /* NightModeViewController.swift in Sources */,
+				CA91F787252FD0D6002DBB38 /* signUp.swift in Sources */,
 				CA91F773252D7085002DBB38 /* AppDelegate.swift in Sources */,
 				CA91F775252D7085002DBB38 /* SceneDelegate.swift in Sources */,
+				CA005D7525301F0900CC619D /* RelaxingTipsViewController.swift in Sources */,
+				CA005D71252FFFC300CC619D /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
